@@ -3,7 +3,17 @@ color: red;
 }
 
 nav {
-    height: 40px;
-    width: 40px;
+    margin-inline: auto;
+    display: flex;
     background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 400px;
+    height: 100px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
 }
